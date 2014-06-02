@@ -21,9 +21,6 @@ body{
 .dialog{
   width:300px;
   min-height:200px;
-  border:1px solid rgba(255,255,255,0.2);;
-  border-right:1px solid rgba(255,255,255,0.1);;
-  border-bottom:1px solid rgba(255,255,255,0.1);;
   border-radius:10px;
   padding:10px;
   background:#151515;
@@ -37,10 +34,8 @@ body{
   box-shadow:0px 0px 10px #000 inset;
   border-bottom-right-radius:5px;
   border-bottom-left-radius:5px;
-  border-top:1px solid rgba(255,255,255,0.1);
-  border-left:1px solid rgba(255,255,255,0.1);
-  border-right:1px solid rgba(255,255,255,0.2);
-  border-bottom:1px solid rgba(255,255,255,0.2);
+  border-top:1px solid #151515;
+  border-bottom:1px solid #151515;
 }
 
 .style{
