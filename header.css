@@ -97,6 +97,9 @@
   font-size:16px;
   font-family:'Raleway';
   cursor:pointer;
+  display:block;
+  background:none;
+  color:#aaa;
 }
 
 #banner a{
