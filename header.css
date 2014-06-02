@@ -79,6 +79,11 @@
   font-size:12px;
   cursor:pointer;
   border-top: 1px solid #0af;
+  border-right: 1px solid #0af;
+}
+
+.banner-item:last-child{
+  border-right: 0px solid #0af;
 }
 
 .banner-item h3{
