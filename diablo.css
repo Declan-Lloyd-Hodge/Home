@@ -51,7 +51,7 @@ a:hover{
 body{
   background:#100;
   font-family:'Didact Gothic';
-  color:#f60;
+  color:#fff;
   margin:0px;
 }
 
@@ -250,7 +250,7 @@ h2{
   margin:0px;
   display:inline-block;
   background:none;
-  color:#f60;
+  color:#fff;
   transition:all 0.2s ease;
   padding:0px;
   z-index:1;
