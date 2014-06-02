@@ -4,6 +4,11 @@
 @import url(http://fonts.googleapis.com/css?family=New+Rocker);
 @import url(http://fonts.googleapis.com/css?family=Didact+Gothic);
 
+@font-face{
+  family:'Blade';
+  url('Blade 2.ttf')  format('truetype');
+}
+
 *{
   user-select:none;
   -webkit-user-select:none;
