@@ -21,9 +21,9 @@ body{
 .dialog{
   width:300px;
   min-height:200px;
-  border:1px solid #fff;
-  border-right:1px solid #888;
-  border-bottom:1px solid #888;
+  border:1px solid rgba(255,255,255,0.2);;
+  border-right:1px solid rgba(255,255,255,0.1);;
+  border-bottom:1px solid rgba(255,255,255,0.1);;
   border-radius:10px;
   padding:10px;
   background:#151515;
@@ -37,10 +37,10 @@ body{
   box-shadow:0px 0px 10px #000 inset;
   border-bottom-right-radius:5px;
   border-bottom-left-radius:5px;
-  border-top:1px solid rgba(0,0,0,0.5);
-  border-left:1px solid rgba(0,0,0,0.5);
-  border-right:1px solid rgba(255,255,255,0.5);
-  border-bottom:1px solid rgba(255,255,255,0.5);
+  border-top:1px solid rgba(255,255,255,0.1);
+  border-left:1px solid rgba(255,255,255,0.1);
+  border-right:1px solid rgba(255,255,255,0.2);
+  border-bottom:1px solid rgba(255,255,255,0.2);
 }
 
 .style{
@@ -52,7 +52,7 @@ body{
   padding:5px;
   cursor:pointer;
   transition:all ease 0.5s;
-  border-top:#0af;
+  border-top:1px solid #0af;
 }
 
 .style:hover{
