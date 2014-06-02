@@ -69,7 +69,7 @@
 
 .banner-item{
   margin:5px 0px;
-  background:#222;
+  background: #151515;
   display:inline-block;
   padding:5px;
   height:45px;
@@ -79,11 +79,15 @@
   font-size:12px;
   cursor:pointer;
   border-top: 1px solid #0af;
-  border-right: 1px solid #0af;
+  box-shadow: 0px 0px 2px #000;
 }
 
 .banner-item:last-child{
-  border-right: 0px solid #0af;
+  border-left: 1px solid #0af;
+}
+
+.banner-item:first-child{
+  border-right: 1px solid #0af;
 }
 
 .banner-item h3{
