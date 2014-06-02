@@ -59,6 +59,7 @@
 }
 
 #banner h2{
+  font-family:'Raleway';
   margin:0px;
   width:100%;
   text-align:left;
@@ -81,6 +82,7 @@
 .banner-item h3{
   margin:0px;
   font-size:16px;
+  font-family:'Raleway';
 }
 
 #banner a{
