@@ -133,7 +133,7 @@ h2{
 }
 
 #ok-button{
-  background:#333;
+  background:#050505;
   width:50px;
   height:25px;
   line-height:25px;
@@ -158,5 +158,5 @@ h2{
 }
 
 hr{
-  border:1px solid #0af;
+  border:1px solid #050505;
 }
