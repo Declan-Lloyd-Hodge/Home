@@ -202,6 +202,7 @@ h2{
 
 .subtitle-glow:not(.plus){
   font-family:'Exocet';
+  font-size: 25px;
   position:absolute;
   left:0px;
   margin:0px;
@@ -221,6 +222,7 @@ h2{
 
 .subtitle{
   font-family:'Exocet';
+  font-size: 25px;
   position:absolute;
   left:0px;
   margin:0px;
