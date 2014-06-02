@@ -291,3 +291,10 @@ a:hover + .title-strike{
 .subtitle-div{
   height:25px;
 }
+
+.content{
+  text-shadow: 0px 1px 0px #999,
+  0px -1px 0px #999,
+  1px 0px 0px #999,
+  -1px 0px 0px #999;
+}
