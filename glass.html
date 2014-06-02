@@ -1,9 +1,17 @@
 <head>
-<script src="glass.js"></script>
-<link rel="stylesheet" type="text/css" href="glass.css" />
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="glass.js"></script>
+  <link rel="stylesheet" type="text/css" href="glass.css" />
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <link rel='stylesheet' type='text/css' href='default.css'/>
+  <script scr='default.js' type='text/javascript'></script>
+  <script> 
+    $(function(){
+      $("#header").load("header.html"); 
+    });
+  </script>
 </head>
 <body>
+  <div id='header'></div>
   <canvas id="pixie"></canvas>
   <div id='page'>
     <div id='page-wrapper'>
