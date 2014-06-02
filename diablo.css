@@ -163,7 +163,7 @@ h1{
   -webkit-text-stroke-color:rgba(125, 0, 0,0.5);
   -webkit-text-stroke-width:1px;
   text-shadow:0px 0px 10px #710;
-  font-family:'New Rocker';
+  font-family:'Blade';
 }
 
 #title-text{
@@ -195,7 +195,7 @@ h2{
 }
 
 .subtitle-glow:not(.plus){
-  font-family:'New Rocker';
+  font-family:'Blade';
   position:absolute;
   left:0px;
   margin:0px;
@@ -214,7 +214,7 @@ h2{
 }
 
 .subtitle{
-  font-family:'New Rocker';
+  font-family:'Blade';
   position:absolute;
   left:0px;
   margin:0px;
@@ -260,7 +260,7 @@ a:hover + .title-strike{
   -webkit-text-stroke-color:rgba(125, 0, 0,0.5);
   -webkit-text-stroke-width:1px;
   text-shadow:0px 0px 10px #710;
-  font-family:'New Rocker';
+  font-family:'Blade';
 }
 
 .plus{
@@ -272,7 +272,7 @@ a:hover + .title-strike{
   -webkit-text-fill-color: none;
   -webkit-text-stroke-color:rgba(125, 0, 0,0.5);
   -webkit-text-stroke-width:1px;
-  font-family:'New Rocker';
+  font-family:'Blade';
   cursor:pointer;
 }
 
