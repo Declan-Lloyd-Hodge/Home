@@ -259,6 +259,8 @@ a:hover + .title-strike{
 .plus-glow{
   position:relative;
   z-index:-1;
+  font-size: 20px;
+  left: 5;
   display:inline-block;
   width:12px;
   box-shadow:0px 0px 0px #05f;
@@ -274,6 +276,8 @@ a:hover + .title-strike{
 .plus{
   position:relative;
   display:inline-block;
+  font-size: 20px;
+  left: 5;
   width:12px;
   background: -webkit-linear-gradient(#F0E9DF, #ba7937);
   -webkit-background-clip: text;
