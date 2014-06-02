@@ -11,6 +11,6 @@ function HideShowSection(input){
     $(input).children('h3').each(function(){
       $(this).html(str.replace(">-<",">+<"));
     });
-    $(input).parent().parent().css({'border-bottom':'solid 0px #f60','box-shadow':'0px 3px 5px -3px #500'});
+    $(input).parent().parent().css({'border-bottom':'solid 0px #f60','box-shadow':'0px 0px 0px -0px #500'});
   }
 }
