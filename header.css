@@ -85,6 +85,7 @@
   border-top: 2px solid #0af;
   box-shadow: 0px 0px 2px #000;
   transition:all ease 0.2s;
+  color:#aaa;
 }
 
 .banner-item:hover{
