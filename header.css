@@ -1,0 +1,94 @@
+#header{
+  position:fixed;
+  left:0px;
+  top:-100px;
+  width:100%;
+  height:100px;
+  color:#333;
+  transition:all ease 0.5s;
+}
+
+#banner{
+  position:absolute;
+  z-index:2000;
+  top:0px;
+  width:100%;
+  height:95px;
+  background:#aaa;
+  font-family:'Raleway';
+  box-shadow:0px 2px 5px #000;
+  padding:5px 0px 0px 0px;
+}
+
+#banner-show-button svg{
+  z-index:-1;
+  position:absolute;
+  left:0px;
+  top:-15px;
+  width:200px;
+  height:100px;
+  overflow:visible;
+  pointer-events:none;
+}
+
+#banner-show-button svg:first-child{
+  position:absolute;
+  top:10px;
+}
+
+#banner-show-button{
+  display:inline-block;
+  height:100px;
+  width:200px;
+  position:absolute;
+  left:50%;
+  top:90px;
+  margin:0px 0px 0px -100px;
+  pointer-events:none;
+}
+
+#banner-show-button path{
+  cursor:pointer;
+  pointer-events:all;
+}
+
+#banner-wrapper{
+  width:966px;
+  margin:0 auto;
+  text-align:center;
+}
+
+#banner h2{
+  margin:0px;
+  width:100%;
+  text-align:left;
+  text-shadow:0px 1px 0px rgba(255,255,255,0.5),0px -1px 0px rgba(0,0,0,0.5);
+}
+
+.banner-item{
+  margin:5px;
+  background:#fff;
+  display:inline-block;
+  padding:5px;
+  height:45px;
+  width:200px;
+  text-align:left;
+  vertical-align:top;
+  font-size:12px;
+  cursor:pointer;
+}
+
+.banner-item h3{
+  margin:0px;
+  font-size:16px;
+}
+
+#banner a{
+  color: #0af;
+  text-decoration:none;
+  transition:all ease 0.2s;
+}
+
+#banner a:hover{
+  color: #aaa;
+}
