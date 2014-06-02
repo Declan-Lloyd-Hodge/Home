@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
 #header{
   position:fixed;
   z-index:2000;
@@ -59,7 +61,7 @@
 }
 
 #banner h2{
-  font-family:'Raleway';
+  font-family:'Montserrat';
   margin:0px;
   width:100%;
   color:#aaa;
