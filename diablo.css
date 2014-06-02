@@ -294,6 +294,7 @@ a:hover + .title-strike{
 
 .content{
   font-family:'Exocet';
+  color:#fff;
   text-shadow: 0px 1px 0px #999,
   0px -1px 0px #999,
   1px 0px 0px #999,
