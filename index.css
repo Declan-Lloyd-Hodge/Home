@@ -115,9 +115,6 @@ h2{
 #error{
   width:300px;
   min-height:100px;
-  border:1px solid #fff;
-  border-right:1px solid #888;
-  border-bottom:1px solid #888;
   border-radius:5px;
   padding:10px;
   background:#151515;
