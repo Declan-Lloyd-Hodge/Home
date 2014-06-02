@@ -87,7 +87,7 @@
   border-left: 1px solid #0af;
 }
 
-.banner-item:first-of-type{
+.banner-item:first-child{
   border-right: 1px solid #0af;
 }
 
