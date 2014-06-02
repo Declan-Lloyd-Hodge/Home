@@ -184,7 +184,7 @@ h1{
 h2{
   padding:0px;
   margin:0px;
-  font-family:'Raleway';
+  font-family:'Exocet';
 }
 
 .subtitle-glow:not(.plus){
@@ -245,7 +245,7 @@ h2{
 }
 
 #career-history table h3{
-  font-family:'Raleway';
+  font-family:'Didact Gothic';
   position:relative;
   margin:0px;
   display:inline-block;
@@ -298,7 +298,7 @@ a:hover + .title-strike{
 }
 
 .content{
-  font-family:'Exocet';
+  font-family:'Didact Gothic';
   color:#fff;
   text-shadow: 0px 1px 0px #999,
   0px -1px 0px #999,
