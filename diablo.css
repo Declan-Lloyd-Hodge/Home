@@ -193,6 +193,23 @@ h2{
   font-family:'Exocet';
 }
 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+ .subtitle-glow:not(.plus){
+  background: -webkit-linear-gradient(#F0E9DF, #ba7937);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color:rgba(125, 0, 0,0.5);
+  -webkit-text-stroke-width:1px;
+ }
+ .subtitle{
+  background: -webkit-linear-gradient(#F0E9DF, #ba7937);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color:rgba(125, 0, 0,0.5);
+  -webkit-text-stroke-width:1px;
+ }
+}
+
 .subtitle-glow:not(.plus){
   font-family:'New Rocker';
   position:relative;
@@ -203,11 +220,6 @@ h2{
   padding:0px 2px;
   z-index:1;
   cursor:pointer;
-    background: -webkit-linear-gradient(#F0E9DF, #ba7937);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-color:rgba(125, 0, 0,0.5);
-  -webkit-text-stroke-width:1px;
   text-shadow:0px 0px 10px #710;
 }
 
@@ -223,11 +235,6 @@ h2{
   padding:0px 2px;
   z-index:1;
   cursor:pointer;
-    background: -webkit-linear-gradient(#F0E9DF, #ba7937);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-color:rgba(125, 0, 0,0.5);
-  -webkit-text-stroke-width:1px;
   text-shadow:0px 0px 10px #710;
 }
 
@@ -243,11 +250,6 @@ h2{
   padding:0px 2px;
   z-index:1;
   cursor:pointer;
-    background: -webkit-linear-gradient(#F0E9DF, #ba7937);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-color:rgba(125, 0, 0,0.5);
-  -webkit-text-stroke-width:1px;
 }
 
 #career-history table h3{
