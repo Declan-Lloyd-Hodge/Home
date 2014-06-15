@@ -173,11 +173,6 @@ h1{
     0px -1px 0px #f50,
     -1px 0px 0px #f50,
     0px 0px 10px #710;*/
-  background: -webkit-linear-gradient(#F0E9DF, #ba7937);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-color:rgba(125, 0, 0,0.5);
-  -webkit-text-stroke-width:1px;
   text-shadow:0px 0px 10px #710;
   font-size:60px;
   font-family:'Blade2';
@@ -201,7 +196,7 @@ h2{
   -webkit-text-stroke-color:rgba(125, 0, 0,0.5);
   -webkit-text-stroke-width:1px;
  }
- .subtitle{
+ .subtitle, h1, .plus, .plus-glow{
   background: -webkit-linear-gradient(#F0E9DF, #ba7937);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -277,11 +272,6 @@ a:hover + .title-strike{
   display:inline-block;
   width:12px;
   box-shadow:0px 0px 0px #05f;
-  background: -webkit-linear-gradient(#F0E9DF, #ba7937);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-color:rgba(125, 0, 0,0.5);
-  -webkit-text-stroke-width:1px;
   text-shadow:0px 0px 10px #710;
   font-family:'New-Rocker';
 }
@@ -292,11 +282,6 @@ a:hover + .title-strike{
   font-size: 20px;
   left: 5px;
   width:12px;
-  background: -webkit-linear-gradient(#F0E9DF, #ba7937);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: none;
-  -webkit-text-stroke-color:rgba(125, 0, 0,0.5);
-  -webkit-text-stroke-width:1px;
   font-family:'New-Rocker';
   cursor:pointer;
 }
