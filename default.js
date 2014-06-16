@@ -20,5 +20,5 @@ $(document).ready(function(){
   if(split[2] && split[2][1]){
     $('#address').html(split[2][1].replace(/-/g, ' ').replace(/_/g, '<br/>'));
   }
-  $('#header').css('top','-100px');
+  setTimeout(function(){$('#header').css('top','-100px')},1000);
 });
