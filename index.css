@@ -157,3 +157,16 @@ h2{
 hr{
   border:1px solid #050505;
 }
+
+#notice{
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  text-align: center;
+  background: rgba(0,175,255,0.1);
+  padding-top: 25px;
+  border-top: 1px #0af solid;
+  border-bottom: 1px #0af solid;
+}
