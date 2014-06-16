@@ -6,7 +6,7 @@ function ShowHideBanner(){
   }
 }
 
-$(document).ready(){
+$(document).ready(function(){
   var split = window.location.search.replace('?', '').split('&').map(function(val){
     return val.split('=');
   });
@@ -14,4 +14,4 @@ $(document).ready(){
   $('#phone').html(split[0][1] + "HEllo");
   $('#email').html(split[1][1]);
   $('#address').html(split[2][1]);
-}
+});
