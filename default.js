@@ -18,7 +18,6 @@ $(document).ready(function(){
     $('#email').html(split[1][1]);
   }
   if(split[2] && split[2][1]){
-    $('#address').html(split[2][1].replace('-', ' '));
-    $('#address').html($('#address').html().replace('_', '<br/>'));
+    $('#address').html(split[2][1].replace(/-/g, ' ').replace(/_/g, '<br/>'));
   }
 });
