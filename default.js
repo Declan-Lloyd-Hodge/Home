@@ -11,7 +11,7 @@ $(document).ready(function(){
     return val.split('=');
   });
   
-  $('#phone').html(split[0][1] + "HEllo");
+  $('#phone').html(split[0][1]);
   $('#email').html(split[1][1]);
   $('#address').html(split[2][1]);
 });
