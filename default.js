@@ -5,3 +5,12 @@ function ShowHideBanner(){
     $('#header').css('top','-100px');
   }
 }
+
+
+var split = window.location.search.replace('?', '').split('&').map(function(val){
+  return val.split('=');
+});
+
+$('#phone').html(split[0][1]);
+$('#email').html(split[1][1]);
+$('#address').html(split[2][1]);
