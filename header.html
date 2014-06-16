@@ -19,7 +19,7 @@
 <script type='text/javascript'>
   $('.banner-item').each(function(){
     $(this).click(function(){
-      location.replace("http://declan-lloyd-hodge.github.io/CV/" + $(this).children('h3').text().toLowerCase() + ".html");
+      location.replace("http://declan-lloyd-hodge.github.io/CV/" + $(this).children('h3').text().toLowerCase() + ".html" + location.search);
     });
   });
 </script>
