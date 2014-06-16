@@ -8,6 +8,7 @@ $(document).ready(function(){
       });
       $(this).css('background','#09f');
       selected = $(this).children('h3').text().toLowerCase() + '.html';
+      selected = selected + location.search;
     });
   });
   $('#go-button').click(function(){
