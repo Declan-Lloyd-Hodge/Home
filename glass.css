@@ -163,6 +163,7 @@ h3:hover{
   filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='50');
   filter:blur(50px);
   -webkit-filter:blur(50px);
+  -ms-filter: blur(50px);
   background: linear-gradient(to bottom, #aaa 0%,#aaa 37%,#555 100%);
   background: -webkit-linear-gradient(top, #aaa 0%,#aaa 37%,#555 100%);
 }
