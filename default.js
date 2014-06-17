@@ -15,7 +15,7 @@ $(document).ready(function(){
     $('#phone').html(split[0][1]);
   }
   if(split[1] && split[1][1]){
-    $('#email').html(split[1][1]);
+    $('#email').html('<a href="mailto:'+split[1][1]+'">' + split[1][1] + '</a>');
   }
   if(split[2] && split[2][1]){
     $('#address').html(split[2][1].replace(/-/g, ' ').replace(/_/g, '<br/>'));
