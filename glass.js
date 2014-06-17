@@ -20,7 +20,7 @@ function BrowserDetection() {
         pulsion = 3
     } else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
         var t = new Number(RegExp.$1);
-        rint = 10;
+        rint = 50;
         pulsion = 16
     } else if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
         var n = new Number(RegExp.$1);
