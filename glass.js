@@ -124,7 +124,7 @@ var speedX = 5;
 var speedY = 2;
 var colorRect = "rgba(255,255,255,";
 var opacityRect = 1;
-var rint = 1000;
+var rint = 50;
 var radius = 200;
 $(document).ready(function () {
     BrowserDetection();
