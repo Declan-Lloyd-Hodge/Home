@@ -175,7 +175,7 @@ h1{
     0px 0px 10px #710;*/
   text-shadow:0px 0px 10px #710;
   font-size:60px;
-  font-family:'Blade2';
+  font-family:'Exocet';
 }
 
 #title-text{
@@ -194,14 +194,12 @@ h2{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-color:rgba(125, 0, 0,0.5);
-  -webkit-text-stroke-width:1px;
  }
  .subtitle, h1, .plus, .plus-glow{
   background: -webkit-linear-gradient(#F0E9DF, #ba7937);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-color:rgba(125, 0, 0,0.5);
-  -webkit-text-stroke-width:1px;
  }
 }
 
