@@ -13,7 +13,10 @@ $(document).ready(function(){
   });
   $('#go-button').click(function(){
     if(selected){
-      location.replace('http://declan-lloyd-hodge.github.io/CV/' + selected);
+      var url = location.href;
+      url = url.replace(url.split("/")[url.split("/").length - 1], '');
+      url += $(this).children('h3').text().toLowerCase() + ".html" + location.search;
+      location.replace(url);
     }else{
       $('#overlay, #error').fadeIn(200);
     }
