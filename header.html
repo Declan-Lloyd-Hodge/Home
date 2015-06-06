@@ -18,8 +18,11 @@
 </filter><a onclick="ShowHideBanner()"><path filter="url(#dropshadow)" d="M10 10 L100 35 190 10 190 35 100 60 10 35 10 10 100 35"/></a></svg><svg><a onclick="ShowHideBanner()"><path filter="url(#dropshadow)" d="M10 10 L100 0 190 10 190 35 100 60 10 35 10 10 100 0"/></a></svg></div>
 <script type='text/javascript'>
   $('.banner-item').each(function(){
-    $(this).click(function(){
-      location.replace("http://declan-lloyd-hodge.github.io/CV/" + $(this).children('h3').text().toLowerCase() + ".html" + location.search);
+      $(this).click(function () {
+          var url = location.href;
+          url = url.replace(url.split("/")[url.split("/").length - 1], '');
+          url += $(this).children('h3').text().toLowerCase() + ".html" + location.search;
+          location.replace(url);
     });
   });
 </script>
