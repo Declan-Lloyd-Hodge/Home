@@ -64,47 +64,15 @@ body{
   
 }
 
-#personal-profile{
+.content-section{
   position:relative;
   min-height:35px;
   padding:10px;
   transition:all 1s ease;
 }
 
-#education{
-  position:relative;
-  min-height:35px;
-  padding:10px;
-  transition:all 1s ease;
-}
-
-#education table{
+#education table, #expertise table{
   width:100%;
-}
-
-#expertise{
-  position:relative;
-  min-height:35px;
-  padding:10px;
-  transition:all 1s ease;
-}
-
-#expertise table{
-  width:100%;
-}
-
-#experience{
-  position:relative;
-  min-height:35px;
-  padding:10px;
-  transition:all 1s ease;
-}
-
-#career-history{
-  position:relative;
-  min-height:35px;
-  padding:10px;
-  transition:all 1s ease;
 }
 
 h1{
