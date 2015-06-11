@@ -15,7 +15,7 @@ $(document).ready(function(){
     if(selected){
       var url = location.href;
       url = url.replace(url.split("/")[url.split("/").length - 1], '');
-      url += selected + ".html" + location.search;
+      url += selected;
       location.replace(url);
     }else{
       $('#overlay, #error').fadeIn(200);
