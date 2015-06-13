@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=New+Rocker');
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+
+@font-face{
+  font-family:'Blade2';
+  src: url('Blade 2.ttf');
+  src: url('Blade 2.ttf')  format('truetype');
+}
+
+@font-face{
+  font-family:'Exocet';
+  src: url('Exocet.ttf');
+  src: url('Exocet.ttf')  format('truetype');
+}
+
+*{
+  user-select:none;
+  -webkit-user-select:none;
+  cursor:default;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+    color: #710;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #a20;
+}
+
+td {
+    border-color: #500 !important;
+}
+
+html{
+  margin:0px;
+  padding:0px;
+}
+
+body{
+  background:#100;
+  font-family:'Didact Gothic';
+  color:#fff;
+  margin:0px;
+}
+
+#page{
+  margin: 50px 0px 0px 0px;
+}
+
+#page-wrapper{
+  margin:0 auto;
+  width:966px;
+}
+
+#main-content-glow, #details-glow{
+  box-shadow:0px 0px 120px rgba(100,0,0,0.2);
+  z-index:0;
+}
+
+#main-content, #details{
+  border-top:1px solid #311;
+  border-left:1px solid #311;
+  border-bottom:1px solid #100;
+  border-right:1px solid #100;
+  z-index:1;
+}
+
+#main-content{
+  margin:0px 0px 20px 0px;
+}
+
+#title{
+  position:relative;
+  height:55px;
+  padding:10px;
+  margin:0px 0px -35px 0px;
+  z-index:5;
+}
+
+#details{
+  position:relative;
+  background:rgba(0,0,0,0.5);
+  padding:10px;
+  margin:0px 0px 10px 0px;
+  color:#f60;
+}
+
+#main-content{
+  position:relative;
+  padding:0px 10px;
+  background:rgba(0,0,0,0.5);
+  padding-bottom:10px;
+}
+
+.content-section {
+  position:relative;
+  min-height:35px;
+  padding:10px;
+  border-bottom:solid 1px #500;
+  border-radius:5px;
+  transition:all 1s ease;
+  box-shadow: 0px 3px 5px -3px #500;
+}
+
+.content-section table{
+  width:100%;
+}
+
+h1{
+  padding:0px;
+  margin:0px;
+  color:#100;
+  /*text-shadow:1px 0px 0px #f50,
+    0px 1px 0px #f50,
+    0px -1px 0px #f50,
+    -1px 0px 0px #f50,
+    0px 0px 10px #710;*/
+  text-shadow:0px 0px 10px #710;
+  font-size:40px;
+  font-family:'Exocet';
+}
+
+#title-text{
+  text-shadow:none;
+  -webkit-text-stroke-width:0.1px;
+}
+
+h2{
+  padding:0px;
+  margin:0px;
+  font-family:'Exocet';
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+ .subtitle-glow:not(.plus){
+  background: -webkit-linear-gradient(#F0E9DF, #ba7937);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color:rgba(125, 0, 0,0.5);
+  -webkit-text-stroke-width:1px;
+ }
+ .subtitle, h1, .plus, .plus-glow{
+  background: -webkit-linear-gradient(#F0E9DF, #ba7937);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color:rgba(125, 0, 0,0.5);
+ }
+}
+
+.subtitle-glow:not(.plus){
+  font-family:'Exocet';
+  font-size: 25px;
+  position:absolute;
+  left:0px;
+  margin:0px;
+  display:inline-block;
+  color:#100;
+  transition:all 0.2s ease;
+  padding:0px 2px;
+  z-index:1;
+  cursor:pointer;
+  text-shadow:0px 0px 10px #710;
+}
+
+.subtitle{
+  font-family:'Exocet';
+  font-size: 25px;
+  position:absolute;
+  left:0px;
+  margin:0px;
+  display:inline-block;
+  color:#100;
+  transition:all 0.2s ease;
+  padding:0px 2px;
+  z-index:1;
+  cursor:pointer;
+}
+
+#career-history table h3{
+  font-family:'Didact Gothic';
+  position:relative;
+  margin:0px;
+  display:inline-block;
+  background:none;
+  color:#fff;
+  transition:all 0.2s ease;
+  padding:0px;
+  z-index:1;
+  cursor:default;
+}
+
+.plus-glow{
+  position:relative;
+  z-index:-1;
+  font-size: 20px;
+  left: 5px;
+  display:inline-block;
+  width:12px;
+  box-shadow:0px 0px 0px #05f;
+  text-shadow:0px 0px 10px #710;
+  font-family:'New-Rocker';
+}
+
+.plus{
+  position:relative;
+  display:inline-block;
+  font-size: 20px;
+  left: 5px;
+  width:12px;
+  font-family:'New-Rocker';
+  cursor:pointer;
+}
+
+.subtitle-div{
+  height:25px;
+}

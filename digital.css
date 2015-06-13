@@ -1,0 +1,174 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+*{
+  user-select:none;
+  -webkit-user-select:none;
+  cursor:default;
+  -webkit-font-smoothing: antialiased;
+}
+
+html{
+  /*-webkit-filter: contrast(1.05) brightness(200%) grayscale(100%);
+  -moz-filter: contrast(1.05) brightness(200%) grayscale(100%);
+  filter: contrast(1.05) brightness(200%) grayscale(100%);*/
+}
+
+td {
+    border-color: #3af !important;
+}
+
+html{
+  margin:0px;
+  padding:0px;
+}
+
+a{
+  color:#3af;
+  text-decoration:none;
+  cursor:pointer;
+  transition:all 0.2s ease;
+}
+
+a:hover{
+  color:#9ff;
+}
+
+body{
+  background:#000b11;
+  background-image: url('https://robertsspaceindustries.com/rsi/static/images/noisebg.gif');
+  font-family:'Open Sans Condensed';
+  color:#6df;
+  margin:0px;
+}
+
+#page{
+  margin: 50px 0px 0px 0px;
+}
+
+#page-wrapper{
+  margin:0 auto;
+  width:966px;
+}
+
+#main-content-glow, #title-glow, #details-glow{
+  box-shadow:0px 0px 120px rgba(0,200,255,0.2);
+  z-index:0;
+}
+
+#main-content-glow{
+  margin-bottom:20px;
+}
+
+#main-content, #title, #details{
+  border-top:1px solid #123;
+  border-left:1px solid #123;
+  border-bottom:1px solid #001;
+  border-right:1px solid #001;
+  z-index:1;
+}
+
+#title{
+  position:relative;
+  background:rgba(0,0,0,0.5);
+  height:55px;
+  padding:10px;
+  margin:0px 0px 10px 0px;
+}
+
+#details{
+  position:relative;
+  background:rgba(0,0,0,0.5);
+  padding:10px;
+  margin:0px 0px 10px 0px;
+  color:#3af;
+}
+
+#main-content{
+  position:relative;
+  padding:0px 10px;
+  background:rgba(0,0,0,0.5);
+  padding-bottom:10px;
+}
+
+.content-section {
+  position:relative;
+  min-height:35px;
+  padding:10px;
+  border-bottom:solid 1px #3af;
+  border-radius:5px;
+  transition:all 1s ease;
+}
+
+.content-section table{
+  width:100%;
+}
+
+h1{
+  padding:0px;
+  margin:0px;
+  color:#3af;
+  font-family:'Raleway';
+}
+
+h2{
+  padding:0px;
+  margin:0px;
+  font-family:'Raleway';
+}
+
+h3{
+  font-family:'Raleway';
+  position:relative;
+  margin:0px;
+  display:inline-block;
+  background:#3af;
+  color:#013;
+  transition:all 0.2s ease;
+  padding:0px 2px;
+  z-index:1;
+  cursor:pointer;
+  box-shadow:0px 0px 5px #05f, 0px 0px 20px rgba(0,120,255,0.2);
+}
+
+h3:hover{
+  margin:0px;
+  display:inline-block;
+  background:#bff;
+  color:#000;
+  box-shadow:0px 0px 5px #bff, 0px 0px 20px rgba(0,200,255,0.2);
+}
+
+#career-history table h3{
+  font-family:'Raleway';
+  position:relative;
+  margin:0px;
+  display:inline-block;
+  background:none;
+  color:#6df;
+  transition:all 0.2s ease;
+  padding:0px;
+  z-index:1;
+  cursor:default;
+  box-shadow:0px 0px 0px #05f;
+}
+
+.title-strike{
+  position:absolute;
+  top:20px;
+  left:0px;
+  width:100%;
+  border-bottom:2px #3af solid;
+  z-index:0;
+  transition:all 0.2s ease;
+}
+
+a:hover + .title-strike{
+  border-bottom:2px #bff solid;
+}
+
+.plus{
+  display:inline-block;
+  width:12px;
+}

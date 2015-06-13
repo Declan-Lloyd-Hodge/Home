@@ -1,0 +1,87 @@
+<head>
+  <title>Declan Hodge CV - Glass</title>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="glass.js"></script>
+  <link rel="stylesheet" type="text/css" href="glass.css" />
+  <link rel='stylesheet' type='text/css' href='header.css'/>
+  <script> 
+    $(function(){
+      $("#header").load("header.html"); 
+      $("#career-history .content").load("CareerHistory.html");
+      $("#experience .content").load("Experience.html");
+      $("#education .content").load("Education.html");
+      $("#skills .content").load("Skills.html");
+      $("#personal-profile .content").load("PersonalProfile.html");
+    });
+  </script>
+  <script src='default.js' type='text/javascript'></script>
+</head>
+<body>
+  <div id='header'></div>
+  <canvas id="pixie"></canvas>
+  <div id='page'>
+    <div id='page-wrapper'>
+      <div id='main-content'>
+        <h1 style='margin:0px 0px 0px;'>Curriculum Vitae</h1>
+        <div>
+            <div style='display:inline-block;width:50%;'>
+              <table style='border-collapse:separate;border-spacing:5px;'>
+                <tr><td>Name:</td><td>Declan Lloyd Hodge</td></tr>
+                <tr><td>Phone No:</td><td id='phone'></td></tr>
+                <tr><td>Email:</td><td id='email'></td></tr>
+              </table>
+            </div>
+            <div style='display:inline-block;width: 49%;vertical-align: top;'>
+              <table style='border-collapse:separate;border-spacing:5px;float:right;'>
+                <td style='vertical-align:top;'>Address:</td><td id='address' style='vertical-align:top;'></td>
+              </table>
+            </div>
+        </div>
+        <hr/>
+        <div class='content-section' id='personal-profile'>
+          <a id='profile-button' onclick='HideShowSection(this)'><h3><div class='plus'>-</div> PERSONAL PROFILE</h3></a>
+          <hr/>
+          <div class='content'>
+            
+          </div>
+        </div>
+        <div class='content-section' id='skills'>
+          <a id='skills-button' onclick='HideShowSection(this)'><h3><div class='plus'>-</div> SKILLS</h3></a>
+          <hr/>
+          <div class='content'>
+           
+          </div>
+        </div>
+        <div class='content-section' id='experience'>
+          <a id='experience-button' onclick='HideShowSection(this)'><h3><div class='plus'>-</div> EXPERIENCE</h3></a>
+          <hr/>
+          <div class='content'>
+            
+          </div>
+        </div>
+        <div class='content-section' id='education'>
+          <a id='education-button' onclick='HideShowSection(this)'><h3><div class='plus'>-</div> EDUCATION</h3></a>
+          <hr/>
+          <div class='content'>
+            
+          </div>
+        </div>
+        <div class='content-section' id='career-history'>
+          <a id='career-button' onclick='HideShowSection(this)'><h3><div class='plus'>-</div> CAREER HISTORY</h3></a>
+          <hr/>
+          <div class='content'>
+            
+          </div>
+        </div>
+      </div>
+      <div id='shine'><svg><defs>
+      <linearGradient gradientUnits="userSpaceOnUse" 
+     x1="0%" y1="0%" x2="10%" y2="200%" id="Gradient">
+        <stop offset="30%" stop-color="white" stop-opacity="0" />
+        <stop offset="100%" stop-color="white" stop-opacity="1" />
+      </linearGradient>
+    </defs><path fill="url(#Gradient)" d='M0 300 L0 0 966 0 966 150 C966 150 483 150 0 300' /></svg>
+      </div>
+    </div>
+  </div>
+</body>
