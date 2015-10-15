@@ -114,13 +114,12 @@ body{
 h1{
   padding:0px;
   margin:0px;
-  color:#100;
-  /*text-shadow:1px 0px 0px #f50,
-    0px 1px 0px #f50,
-    0px -1px 0px #f50,
-    -1px 0px 0px #f50,
-    0px 0px 10px #710;*/
-  text-shadow:0px 0px 10px #710;
+  color:#F0E9DF;
+    text-shadow: 1px 0px 0px rgba(125, 0, 0, 1),
+                 0px 1px 0px rgba(125, 0, 0, 1),
+                 0px -1px 0px rgba(125, 0, 0, 1),
+                 -1px 0px 0px rgba(125, 0, 0, 1),
+                 0px 0px 10px rgba(125, 0, 0, 1);
   font-size:40px;
   font-family:'Exocet';
 }
@@ -137,6 +136,7 @@ h2{
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
+
  .subtitle-glow:not(.plus){
   background: -webkit-linear-gradient(#F0E9DF, #ba7937);
   -webkit-background-clip: text;
@@ -149,6 +149,10 @@ h2{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-color:rgba(125, 0, 0,0.5);
+ }
+ 
+ .subtitle{
+	text-shadow:none !important;
  }
 }
 
@@ -164,7 +168,11 @@ h2{
   padding:0px 2px;
   z-index:1;
   cursor:pointer;
-  text-shadow:0px 0px 10px #710;
+      text-shadow: 1px 0px 0px rgba(125, 0, 0, 1),
+                 0px 1px 0px rgba(125, 0, 0, 1),
+                 0px -1px 0px rgba(125, 0, 0, 1),
+                 -1px 0px 0px rgba(125, 0, 0, 1),
+                 0px 0px 10px rgba(125, 0, 0, 1);
 }
 
 .subtitle{
@@ -174,7 +182,12 @@ h2{
   left:0px;
   margin:0px;
   display:inline-block;
-  color:#100;
+  color:#F0E9DF;
+  text-shadow: 1px 0px 0px rgba(125, 0, 0, 1),
+                 0px 1px 0px rgba(125, 0, 0, 1),
+                 0px -1px 0px rgba(125, 0, 0, 1),
+                 -1px 0px 0px rgba(125, 0, 0, 1),
+                 0px 0px 10px rgba(125, 0, 0, 1);
   transition:all 0.2s ease;
   padding:0px 2px;
   z-index:1;

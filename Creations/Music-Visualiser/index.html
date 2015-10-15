@@ -1,0 +1,44 @@
+<html>
+	<head>
+  <link href="/PortfolioTest/Creations/Music-Visualiser/default.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+    <div id='body-fx-wrapper'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="/PortfolioTest/Cookies.js"></script>
+    <script src="/PortfolioTest/Creations/Music-Visualiser/default.js"></script>
+      <canvas id='visualizer'></canvas>
+      <div id='foreground' onclick="GetInfo()">
+          <audio crossorigin='anonymous' id='Stream' autoplay="" controls="">
+          <source src="http://icecast.pulsradio.com/pulstranceHD.mp3" type="audio/mpeg">
+          </audio>
+          <input onclick="setVol(this.value)" min="0" max="1" step="0.01" id="volume-bar" type="range"/>
+          <svg viewBox="0 0 100 100" onclick='start()' class='play-btn' id='start'><polygon points="0,0 100,50 0,100" /></svg>
+          <svg viewBox="0 0 100 100" onclick='pause()' class='pause-btn' id='pause'><rect height="100" width="100" /></rect>
+          <div id="current-volume"></div>
+        </div>
+        <div id='settings'><div id='settings-fx-wrapper'><div id='settings-title'>Settings</div><div id='settings-wrapper'>
+        <table><tr><td>Station:</td><td><input value='http://icecast.pulsradio.com:80/pulstranceHD.mp3' id='srInput'/><div onclick='NewSource()' class='btn'>Save</div></td></tr>
+        <tr><td>Bleed Quality:</td><td><input step='1' value='1' id='bqInput' max='20' min='1' type='range'/><div onclick='NewBleedQuality()' class='btn'>Save</div></td></tr>
+        <tr><td>Bar Height:</td><td><input step='0.01' value='0' id='bhInput' max='1' min='0' type='range'/><div onclick='NewBarHeight()' class='btn'>Save</div></td></tr>
+        <tr><td>Bar Width:</td><td><input step='1' value='4' id='bwInput' max='100' min='1' type='range'/><div onclick='NewBarWidth()' class='btn'>Save</div></td></tr>
+        <tr><td>Bar Spacing:</td><td><input step='1' value='1' id='bsInput' max='5' min='0' type='range'/><div onclick='NewBarSpacing()' class='btn'>Save</div></td></tr>
+        </table>
+      <div id='filters'>
+        <div id='filters-title'>FX</div>
+        <table>
+          <tr><td>Vibrance:</td><td><div onclick='toggleFX("vibrance")' class='filter-toggle'><div style='opacity:0.2;'>On</div><div>Off</div></div></td></tr>
+          <tr><td>Color Shift:</td><td><div onclick='toggleFX("colourShift")' class='filter-toggle'><div style='opacity:0.2;'>On</div><div>Off</div></div></td></tr>
+        </table>
+      </div>
+          </div><div onclick='SettingsToggle()' id='settings-toggle'>></div></div></div></div>
+<div class="tooltip-layer">
+  <div class="tooltip central-tooltip">Due to the Cross Origin Restrictions of some servers, certain streams may not work. A proxy may be used in a later update if possible.<br>
+Sorry for the inconvenience.<div class="tooltip-close-button" >X</div></div>
+  
+  <div class="tooltip stream-control-tooltip">Start, Stop and Volume contros can be found here.<div class="tooltip-close-button" >X</div></div><div class="tooltip settings-tooltip" >Settings and effects can be found here.
+  <div class="tooltip-close-button" >X</div></div>
+</div>
+</div>
+	</body>
+</html>

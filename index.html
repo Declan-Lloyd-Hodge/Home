@@ -1,13 +1,18 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title></title>
-    <link rel="stylesheet" href="Default.css"/>
+    <title>Welcome</title>
+    <link rel="stylesheet" href="Default.css" />
 </head>
 <body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
     <script src="Default.js"></script>
+    <script src="ProfileSkills.js"></script>
+    <script src="Creations.js"></script>
+    <script src="CV.js"></script>
+    <script src="Cookies.js"></script>
+    <div id="background"></div>
     <div class="page">
         <div id="navbar" class="content-block">
             <svg id="navbar-top" stroke-width="5" stroke="#3af">
@@ -71,10 +76,11 @@
             <div style="height:45px;" id="navbar-content">
                 <div id="navbar-title">WELCOME</div>
                 <ul>
-                    <li onclick="loadPage('AboutMe.html')">About Me</li>
-                    <li onclick="loadPage('ProfileSkills.html')">Profile/Skills</li>
-                    <li onclick="loadPage('CV.html')">CV</li>
-                    <li onclick="loadPage('Creations.html')">Creations</li>
+                    <li class='active' onclick="loadPage('AboutMe.html',this)">About Me</li>
+                    <li onclick="loadPage('ProfileSkills.html',this)">Profile/Skills</li>
+                    <li onclick="loadPage('CV.html',this); resetCVStyleDefaults();">CV</li>
+                    <li onclick="loadPage('Creations.php',this)">Creations</li>
+                    <li onclick="loadPage('Contact.html',this)">Contact Me</li>
                 </ul>
             </div>
         </div>
